@@ -1,4 +1,4 @@
-# https://github.com/yourusername (commented-out URL, replace with your own)
+# https://github.com/samimshs/PythonCodeSnippet
 
 # Import libraries
 import warnings
@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Ingest data from a local CSV file (Iris dataset)
-df = pd.read_csv('iris.csv', names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])
+df = pd.read_csv('https://raw.githubusercontent.com/samimshs/PythonCodeSnippet/refs/heads/main/iris.csv', names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])
 
 # Manage different data types
 # Ensure numeric columns are floats, and 'species' is a categorical type
